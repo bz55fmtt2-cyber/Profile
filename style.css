@@ -138,22 +138,40 @@ footer {
   font-size: 8px;
 }
 
-/* ---------- responsive ---------- */
+/* media */
+
 @media (max-width: 600px) {
   .about .content {
     flex-direction: column;
   }
+
+  /* ma
+  in */
+    .mainvisual img {
+    height: 300px;
+  }
+
+  /* about */
+
+
+  /* bicycle */
 
   .bicycle ul {
     flex-direction: column;
     align-items: center;
   }
 
+  .bicycle h3{
+    margin: 10px 0;
+  }
+  
   .bicycle li {
     width: 90%;
   }
 
-  .mainvisual img {
-    height: 300px;
+  .bicycle img{
+    width: 490px;
+    height: 324px;
   }
+
 }
