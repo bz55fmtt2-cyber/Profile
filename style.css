@@ -159,6 +159,10 @@ footer {
 
   /* about */
 
+  .about img{
+    margin: 0;
+    padding: 0;
+  }
 
   /* bicycle */
 
