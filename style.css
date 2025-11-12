@@ -78,7 +78,7 @@ header li a:hover {
 
 @media(max-width: 600px) {
   .mainvisual img {
-    height: 190px;
+    height: calc(100vh - 60px);
   }
 }
 
